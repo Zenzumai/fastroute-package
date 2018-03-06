@@ -12,7 +12,7 @@ class FastRoute extends SingleValueDirectiveGroup
     const PUT = 4;
     const DELETE = 8;
     const PATCH = 16;
-    const RESTFUL = self::GET | self::POST | self::PUT | self::DELETE;
+    const RESTFUL = self::GET | self::POST | self::PUT | self::PATCH | self::DELETE;
 
     /**
      * FastRoute constructor.
